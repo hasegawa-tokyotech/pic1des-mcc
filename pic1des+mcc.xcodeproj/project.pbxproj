@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CA78B8924C1713900BEC6B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA78B8824C1713900BEC6B8 /* main.cpp */; };
+		1CA78B9A24C1725800BEC6B8 /* Field_1DES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA78B8F24C1725800BEC6B8 /* Field_1DES.cpp */; };
+		1CA78B9B24C1725800BEC6B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA78B9224C1725800BEC6B8 /* main.cpp */; };
+		1CA78B9C24C1725800BEC6B8 /* Particle_1DES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA78B9324C1725800BEC6B8 /* Particle_1DES.cpp */; };
+		1CA78B9D24C1725800BEC6B8 /* World_1DES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA78B9424C1725800BEC6B8 /* World_1DES.cpp */; };
+		1CA78B9E24C1725800BEC6B8 /* Particles_1DES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA78B9724C1725800BEC6B8 /* Particles_1DES.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,17 @@
 
 /* Begin PBXFileReference section */
 		1CA78B8524C1713900BEC6B8 /* pic1des+mcc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pic1des+mcc"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CA78B8824C1713900BEC6B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1CA78B8F24C1725800BEC6B8 /* Field_1DES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Field_1DES.cpp; sourceTree = "<group>"; };
+		1CA78B9024C1725800BEC6B8 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		1CA78B9124C1725800BEC6B8 /* Field_1DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field_1DES.h; sourceTree = "<group>"; };
+		1CA78B9224C1725800BEC6B8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1CA78B9324C1725800BEC6B8 /* Particle_1DES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle_1DES.cpp; sourceTree = "<group>"; };
+		1CA78B9424C1725800BEC6B8 /* World_1DES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World_1DES.cpp; sourceTree = "<group>"; };
+		1CA78B9524C1725800BEC6B8 /* phys_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phys_const.h; sourceTree = "<group>"; };
+		1CA78B9624C1725800BEC6B8 /* World_1DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World_1DES.h; sourceTree = "<group>"; };
+		1CA78B9724C1725800BEC6B8 /* Particles_1DES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particles_1DES.cpp; sourceTree = "<group>"; };
+		1CA78B9824C1725800BEC6B8 /* Particles_1DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particles_1DES.h; sourceTree = "<group>"; };
+		1CA78B9924C1725800BEC6B8 /* Particle_1DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle_1DES.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,17 @@
 		1CA78B8724C1713900BEC6B8 /* pic1des+mcc */ = {
 			isa = PBXGroup;
 			children = (
-				1CA78B8824C1713900BEC6B8 /* main.cpp */,
+				1CA78B9224C1725800BEC6B8 /* main.cpp */,
+				1CA78B8F24C1725800BEC6B8 /* Field_1DES.cpp */,
+				1CA78B9124C1725800BEC6B8 /* Field_1DES.h */,
+				1CA78B9324C1725800BEC6B8 /* Particle_1DES.cpp */,
+				1CA78B9924C1725800BEC6B8 /* Particle_1DES.h */,
+				1CA78B9724C1725800BEC6B8 /* Particles_1DES.cpp */,
+				1CA78B9824C1725800BEC6B8 /* Particles_1DES.h */,
+				1CA78B9424C1725800BEC6B8 /* World_1DES.cpp */,
+				1CA78B9624C1725800BEC6B8 /* World_1DES.h */,
+				1CA78B9024C1725800BEC6B8 /* Matrix.h */,
+				1CA78B9524C1725800BEC6B8 /* phys_const.h */,
 			);
 			path = "pic1des+mcc";
 			sourceTree = "<group>";
@@ -119,7 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA78B8924C1713900BEC6B8 /* main.cpp in Sources */,
+				1CA78B9B24C1725800BEC6B8 /* main.cpp in Sources */,
+				1CA78B9A24C1725800BEC6B8 /* Field_1DES.cpp in Sources */,
+				1CA78B9C24C1725800BEC6B8 /* Particle_1DES.cpp in Sources */,
+				1CA78B9E24C1725800BEC6B8 /* Particles_1DES.cpp in Sources */,
+				1CA78B9D24C1725800BEC6B8 /* World_1DES.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
